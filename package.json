@@ -1,0 +1,20 @@
+{
+    "name": "thank-you-action",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "ncc build src/action -o dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/apoorv0291/thank-you-action.git"
+    },
+    "author": "apoorv",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/apoorv0291/thank-you-action/issues"
+    },
+    "homepage": "https://github.com/apoorv0291/thank-you-action#readme"
+}

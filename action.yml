@@ -1,0 +1,15 @@
+name: "thank you action -Apoorv"
+descripton: "Thank you to pull request"
+author: 'APoorv Gupta'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor API token'   
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'    
